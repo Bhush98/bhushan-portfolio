@@ -1,0 +1,49 @@
+.home{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.para-content{
+    margin-top: 2%;
+}
+.goku-gif{
+    width: 40vw;
+    height: 40vh;
+    margin-left: 30%;
+}
+.contact-icons{
+    margin-top: 2%;
+    border: 2px solid white;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: black;
+}
+.content{
+    margin-top: 2%;
+    font-size: 23px;
+    margin-bottom: 10%;
+}
+
+@media (max-width: 600px)
+{
+    .home{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    p{
+        font-size: 30px !important;
+    }
+    .goku-gif{
+        align-content: center !important;
+        height: 40vh;
+        width: 40vh;
+        margin-left: 15%;
+    }
+    .content{
+        margin-right: 2%;
+    }
+    .content p{
+        font-size: 20px !important;
+    }
+}

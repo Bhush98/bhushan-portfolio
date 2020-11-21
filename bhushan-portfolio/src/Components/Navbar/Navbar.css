@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2%;
+}
+.links{
+    margin-right: 10%;
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.header{
+    margin-left: 8%;
+    display: flex;
+    justify-content: stretch;
+}
+
+.header img{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+}
+.header h2{
+    margin-left: 2%;
+    margin-top: 7%;
+    font-size: 40px;
+}
+.header p{
+    color: white;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.header-content{
+    display: flex;
+}
+.header-content p{
+    font-size: 30px;
+}
+h2{
+    color: white;
+}
+Link{
+    text-decoration: none;
+}
+h2:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:600px){
+    .header{
+        margin-top: 5%;
+    }
+    .links{
+        display: none;
+    }
+}

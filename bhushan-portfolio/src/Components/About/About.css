@@ -1,0 +1,137 @@
+.about-div{
+    margin-top: 2%;
+    color: white;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.about-title{
+    font-size: 50px;
+}
+.about-div p{
+    margin-top: 2%;
+    font-size: 25px;
+}
+.work-title{
+    margin-top: 5%;
+    display: flex;
+}
+.work-title h2{
+    font-size: 30px;
+}
+.work-title img{
+    margin-left: 2%;
+    width: 40px;
+    height: 40px;
+}
+li p{
+    font-size: 23px !important;
+    font-weight: bolder;
+}
+li h3{
+    font-size: 18px !important;
+}
+.tech-skills h2{
+    margin-top: 3%;
+    font-size: 30px;
+}
+.education h2{
+    margin-top: 3%;
+    font-size: 30px;
+}
+.language h2{
+    margin-top: 3%;
+    font-size: 30px;
+}
+.skills { 
+    width: 60vw;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill{
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.skills img{
+    margin: 0% auto;
+    margin-top: 25%;
+    height: 80px;
+    width: 80px;
+}
+.skills2{
+    width: 60vw;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill1{
+    height: 140px;
+    width: 140px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+.skills2 img{
+    margin: 0% auto;
+    margin-top: 25%;
+    height: 80px;
+    width: 80px;
+}
+.language img{
+    margin-top: -19% ;
+    margin-left: 12%;
+    width: 40px;
+    height: 40px;
+}
+.interests h2{
+    margin-top: 3%;
+    font-size: 30px;
+}
+
+@media (max-width : 600px)
+{
+    li{
+        margin: 5%;
+    }
+    .about-div{
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-bottom: 10%;
+    }
+    .about-title{
+        font-size: 30px;
+    }
+    .about-div p{
+        font-size: 15px !important;
+        margin: 3%;
+    }
+    .about-div h2{
+        font-size: 25px !important;
+    }
+    .about-div h3{
+        font-size: 15px !important;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skill{
+        margin: 5%;
+    }
+    .skills2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill1{
+        margin: 5%;
+    }
+    .language-title img{
+        margin-left: 40% !important;
+    }
+}

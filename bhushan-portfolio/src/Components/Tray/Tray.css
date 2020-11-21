@@ -1,0 +1,13 @@
+.tray-div{
+    display: none;
+}
+
+@media (max-width : 600px){
+    .tray-div{
+        background-color: #f50057;
+        height: 5vh;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
